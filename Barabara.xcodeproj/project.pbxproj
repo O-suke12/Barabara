@@ -13,6 +13,10 @@
 		5307C85F246848F4007F8052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C85D246848F4007F8052 /* Main.storyboard */; };
 		5307C861246848F7007F8052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307C860246848F7007F8052 /* Assets.xcassets */; };
 		5307C864246848F7007F8052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C862246848F7007F8052 /* LaunchScreen.storyboard */; };
+		5307C86E2468F610007F8052 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C86C2468F610007F8052 /* tail.png */; };
+		5307C86F2468F610007F8052 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C86D2468F610007F8052 /* bar.png */; };
+		5307C8712468F6F8007F8052 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C8702468F6F8007F8052 /* GameViewController.swift */; };
+		5307C8752468F73C007F8052 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C8742468F73C007F8052 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5307C860246848F7007F8052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5307C863246848F7007F8052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5307C865246848F7007F8052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307C86C2468F610007F8052 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		5307C86D2468F610007F8052 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		5307C8702468F6F8007F8052 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5307C8742468F73C007F8052 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		5307C84B246848F4007F8052 = {
 			isa = PBXGroup;
 			children = (
+				5307C8742468F73C007F8052 /* RankingViewController.swift */,
+				5307C8702468F6F8007F8052 /* GameViewController.swift */,
 				5307C856246848F4007F8052 /* Barabara */,
 				5307C855246848F4007F8052 /* Products */,
 			);
@@ -56,6 +66,7 @@
 		5307C856246848F4007F8052 /* Barabara */ = {
 			isa = PBXGroup;
 			children = (
+				5307C86B2468F610007F8052 /* Barabara素材 */,
 				5307C857246848F4007F8052 /* AppDelegate.swift */,
 				5307C859246848F4007F8052 /* SceneDelegate.swift */,
 				5307C85B246848F4007F8052 /* ViewController.swift */,
@@ -65,6 +76,15 @@
 				5307C865246848F7007F8052 /* Info.plist */,
 			);
 			path = Barabara;
+			sourceTree = "<group>";
+		};
+		5307C86B2468F610007F8052 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				5307C86C2468F610007F8052 /* tail.png */,
+				5307C86D2468F610007F8052 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5307C864246848F7007F8052 /* LaunchScreen.storyboard in Resources */,
+				5307C86F2468F610007F8052 /* bar.png in Resources */,
+				5307C86E2468F610007F8052 /* tail.png in Resources */,
 				5307C861246848F7007F8052 /* Assets.xcassets in Resources */,
 				5307C85F246848F4007F8052 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5307C8752468F73C007F8052 /* RankingViewController.swift in Sources */,
+				5307C8712468F6F8007F8052 /* GameViewController.swift in Sources */,
 				5307C85C246848F4007F8052 /* ViewController.swift in Sources */,
 				5307C858246848F4007F8052 /* AppDelegate.swift in Sources */,
 				5307C85A246848F4007F8052 /* SceneDelegate.swift in Sources */,
