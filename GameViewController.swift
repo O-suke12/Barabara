@@ -45,8 +45,9 @@ class GameViewController: UIViewController {
             positionX[i] += dx[i]
         }
         
-        img1.center.x = positionX[0]
+        img1.center.x = positionX[2]
         img2.center.x = positionX[1]
+        img3.center.x = positionX[0]
     }
     
     @IBAction func stop() {
